@@ -1,0 +1,54 @@
+﻿fieldset {
+    width: 300px;
+    background-color: floralwhite;
+}
+
+.calculator {
+    border: 2px ridge darkgrey;
+    background-color: floralwhite;
+}
+
+.textBox {
+    height: 30px;
+    width: 191px;
+    text-align: right;
+    background: #e4e4e4;
+    color: #000;
+}
+
+.button {
+    border-radius: 2px;
+    box-shadow: #e4e4e4 2px 2px 2px;
+    width: 46px;
+    height: 28px;
+    background: black;
+    font-weight: normal;
+    color: antiquewhite;
+}
+
+    .button:hover {
+        /*color: lemonchiffon;*/
+        color: red;
+    }
+
+    .button:active {
+        border: 1px solid #ff0000;
+    }
+
+    .button.equals {
+        background: #ff4600;
+        box-shadow: #e4e4e4 4px 4px 4px;
+    }
+
+        .button.equals:hover {
+            color: black;
+        }
+
+    .button.commandBtn {
+        background-color: darkolivegreen;
+        box-shadow: #e4e4e4 4px 4px 4px;
+    }
+
+        .button.commandBtn:hover {
+            color: tomato;
+        }
